@@ -48,15 +48,39 @@ Bookhub-API is a separate project developed using Spring framework to serve [Boo
 
 Run the following command:
 
+### With Gradle command line
 ```sh
 cd bookhub-api
 ./gradlew bootrun
 ```
+You can then access Bookhub API here: [http://localhost:8080/](http://localhost:8080)
+
+## Working with Bookhub API in your IDE
+
+### Prerequisites
+The following items should be installed in your system:
+* Java 17 or newer (full JDK not a JRE)
+* Gradle 7.x+ (https://gradle.org/releases/)
+* git command line tool (https://help.github.com/articles/set-up-git)
+* Your prefered IDE(recommended IntelliJ IDEA)
+
+### Steps:
+
+1) On the command line
+```
+git clone https://github.com/bonomoon/bookhub-api.git
+```
+
+2) Inside IntelliJ IDEA
+
+In the main menu, select `File > Open` and select the Bookhub API project directory. Click on the `Open` button.
+
+## What's inside?
 
 # 💑 Contributing
 
 > Please check links below before commit.
-- [Monorepo with Trunk Based Development](https://trunkbaseddevelopment.com/monorepos/)
+- [Git flow, the most git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 - [Commit rule: Semantic Commit Messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
 
 # 📑 License
